@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+  <h1 id="game" class="d-none"></h1>
+  <h2 id="h2" class="d-none">Tour de<span id="tourJoueur"></span></h2>
+  <form class="center">
+
+  </form>
+  <table>
+    <tbody>
+      <p id="fini" class="d-none"></p>
+      <button id="buttonMorpion" class="d-none" onclick="createMorp(this);">MORPION</button>
+      <button id="buttonPower" class="d-none" onclick="createPowerFour(this);">PUISSANCEe 4</button>
+      <div>
+        <button id="recommencer" class="d-none">JOUER UNE <br /> NOUVELLE MANCHE</button>
+      </div>
+
+
+    </tbody>
+  </table> <!-- Fin ID morpion -->
+
+  <table id="recapitulatif" class="d-none">
+    <tr>
+      <th id="nomJoueur1">Joueur 1 : </th>
+      <th class="points" id="pointJoueur1">0</th>
+    </tr>
+    <tr>
+      <th>Egalité : </th>
+      <th class="points" id="pointEgalite">0</th>
+    </tr>
+    <tr>
+      <th id="nomJoueur2">Joueur 2 : </th><br>
+      <th class="points" id="pointJoueur2">0</th>
+    </tr>
+
+  </table> <!-- Fin ID recapitulatif -->
+
+
+
+  <script src="assets/js/main2.js"></script>
+</body>
+
+</html>

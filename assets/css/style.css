@@ -1,0 +1,170 @@
+table {
+  margin-bottom: 50px;
+}
+#recapitulatif{
+  background-color: #000000;
+  color: white;
+  border: 1px solid  #00ffee;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+
+#morpion {
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  background-color: #323232;
+  border: 5px solid #00ffee;
+  box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.75);
+}
+
+td {
+
+  border: 3px solid  #00ffee;
+  border-radius: 100px;
+  width: 8em;
+  height: 8em;
+  font-family: 'FontAwesome';
+  text-align: center;
+  padding: 0px;
+  background-color: #000000;
+
+}
+
+td.circle::before {
+  content: url('https://api.iconify.design/clarity/shield-solid.svg?color=blue&width=70&height=80');
+
+}
+
+.d-none{
+  display: none;
+}
+
+td.cross::before {
+  content: url('https://api.iconify.design/mdi/sword-cross.svg?color=red&width=70&height=80');
+
+
+}
+
+#recapitulatif {
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+
+button:hover {
+  cursor: pointer;
+  border-color: grey;
+  color: grey;
+}
+
+body {
+  background-image: url("../img/fondmorpion.jpg") ;
+  
+  background-color: #000000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+}
+
+h1 {
+  background-color: #000000;
+  color: white;
+  border: 1px solid  #00ffee;
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  background-color: #313131;
+  color: #00ffee;
+  font-size: x-large;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0.2em 0.5em;
+  transition: 0.7s all;
+
+}
+h2 {
+  background-color: #000000;
+  color: white;
+  border: 1px solid #00ffee;
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+}
+
+
+.center{
+  margin-top: 300px;
+}
+.center input{
+  padding: 5px;
+ font-size: 20px;
+ margin-bottom: 30px;
+ background-color: #313131;
+ color: #00ffee;
+ border: 1px solid white;
+}
+.center select{
+  border: 1px solid white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  background-color: #454545;
+  color: #00ffee;
+}
+input:hover {
+  cursor: pointer;
+  border-color: grey;
+  color: grey;
+}
+label{
+  width: 100px;
+  padding: 1px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: #454545;
+  color: #00ffee;
+  border: 1px solid white;
+}
+
+.points{
+  color: #00ffee;
+}
+#fini{
+  background-color: #000000;
+  color: white;
+  border: 1px solid  #00ffee;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
